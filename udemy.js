@@ -21,7 +21,7 @@
 
 // _______________________________________________________________________
 
-// Типы данных
+// ТИПЫ ДАННЫХ
 
 // let number = 4.6;
 // console.log(4/0);
@@ -49,7 +49,7 @@
 
 //  ____________________________________________________________________
 
-// Общение с пользователем
+// ОБЦЕНИЕ С ПОЛЬЗОВАТЕЛЕМ
 
 // alert('Hello');
 
@@ -70,7 +70,7 @@
 // console.log(typeof(null));
 // ____________________________________________________________________
 
-// Интерполяция
+// ИНТЕРПОЛЯЦИЯ
 
 // const category = "toys";
 
@@ -81,7 +81,7 @@
 // alert(`Привет, ${user}`);
 // ____________________________________________________________________
 
-// Операторы JS
+// ОПЕРАТОРЫ JS
 
 // console.log(4 + +'5');
 
@@ -113,4 +113,118 @@
 
 // console.log(2 + 2 * 2 == '6');
  
+// УСЛОВИЯ
 
+// if (4==9) {
+//  console.log('Ok');
+// } else {
+//     console.log('error');
+// }
+
+// if (num < 49){
+//     console.log('errror');
+// } else if (num > 100){
+//     console.log('много');
+// } else {
+//     console.log('Ok');
+// }
+
+// (num === 50) ? console.log('Ok') : console.log('errror');
+
+// const num = '50';
+
+// switch (num) {
+//     case '49':
+//         console.log('Неверно');
+//         break;
+//     case '100':
+//         console.log('Неверно');
+//         break;
+//     case '51':
+//         console.log('в точку');
+//         break;
+//     default:
+//         console.log('Не в этот раз');
+//         break;
+// }
+
+// const test = true;
+
+// // if(test != true) {
+// //     console.log('Верно');
+// // } else {
+// //     console.log('Неверно');
+// // }
+
+// (test != true) ? console.log('Верно') : console.log('Неверно');
+
+// let a = 1;
+// let b = 5;
+// if(a > 2 && a < 11 || b >= 6 && b < 14){
+//     console.log('Верно');
+// }else {
+//     console.log('Неверно');
+// }
+
+
+// let num = 1;
+
+// switch(num) {
+//     case 1:
+//     console.log('зима');
+//     break;
+//     case 2:
+//     console.log('весна');
+//     break;
+//     case 3:
+//     console.log('лето');
+//     break;
+//     case 4:
+//     console.log('осень');
+//     break;
+// }
+
+// let str = 'abcde';
+// if(str[2] == 'a'){
+//     console.log('Yes');
+// }else{
+//     console.log('No');
+// }
+
+// let str = '123123';
+
+// if(str[0] + str[1] + str[2] == str[3] + str[4] + str[5]){
+//     console.log('yes');
+// }else{
+//     console.log('no');
+// }
+
+
+// ЦИКЛЫ
+
+// let num = 50;
+
+// while (num <= 55) {
+//     console.log(num);
+//     num++;
+// }
+
+// do {
+//     console.log(num);
+//     num++;
+// }
+// while (num < 55);
+
+// for (let i = 1; i < 8; i++) {
+//     console.log(num);
+//     num++;
+// }
+
+// for (let i = 1; i < 10; i++) {
+//     if (i === 6){
+//         // break;
+//         continue;
+//     }
+//     console.log(i);
+    
+// }
