@@ -228,3 +228,11 @@
 //     console.log(i);
     
 // }
+
+// ФУНКЦИИ
+
+function showFirstMessage(){
+    console.log("Hello world");
+}
+
+showFirstMessage();
